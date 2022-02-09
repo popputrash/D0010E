@@ -1,14 +1,10 @@
 
 package lab2;
 
-import lab2.Driver;
-
 public class Main {
-	
-	
+	static Driver driver = new Driver();
+
 	public static void main(String[] args) {
-		
-		
-		
+		driver.run();
 	}
 }
